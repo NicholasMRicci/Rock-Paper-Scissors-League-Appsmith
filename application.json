@@ -3,6 +3,22 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Spectator Favorites",
+      "isDefault": false
+    },
+    {
+      "id": "Coach View Players",
+      "isDefault": false
+    },
+    {
+      "id": "Match History",
+      "isDefault": false
+    },
+    {
+      "id": "Player Statistics",
+      "isDefault": false
     }
   ],
   "viewMode": false,
