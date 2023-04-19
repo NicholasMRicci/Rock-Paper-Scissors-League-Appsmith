@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "PlayerHelper",
+    "pageId": "Spectator Favorites",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Spectator Favorites_PlayerHelper",
+  "deleted": false,
+  "gitSyncId": "643dae411931040a021e5bab_6440602361dc526593781be9"
+}

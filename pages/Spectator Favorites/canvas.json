@@ -465,7 +465,7 @@
                         }
                       ],
                       "labelPosition": "Top",
-                      "options": "[\n  {\n    \"label\": \"Blue\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"Green\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Red\",\n    \"value\": \"RED\"\n  }\n]\n{{}}",
+                      "options": "{{}}",
                       "placeholderText": "Select option",
                       "isDisabled": false,
                       "key": "iawqjo5ekk",
