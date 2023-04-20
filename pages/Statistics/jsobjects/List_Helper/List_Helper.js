@@ -30,5 +30,12 @@ export default {
 			result.push({"label": data[season]["seasonYear"].toString(), "value":  data[season]["seasonYear"].toString()})
 		}
 		return result
+	},
+	formatTeamsParticiated(teams) {
+		var res = ""
+		for (var team in teams) {
+			res += teams[team] + "\n"
+		}
+		return res
 	}
 }
