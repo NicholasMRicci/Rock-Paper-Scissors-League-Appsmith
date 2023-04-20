@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 940,
+          "bottomRow": 1130,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -26,60 +26,629 @@
           "leftColumn": 0,
           "children": [
             {
-              "widgetName": "Text1",
-              "displayName": "Text",
-              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "borderColor": "#E0DEDE",
+              "widgetName": "Form1Copy1",
+              "isCanvas": true,
+              "displayName": "Form",
+              "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
               "searchTags": [
-                "typography",
-                "paragraph",
-                "label"
+                "group"
               ],
-              "topRow": 1,
-              "bottomRow": 10,
+              "topRow": 73,
+              "bottomRow": 113,
               "parentRowSpace": 10,
-              "type": "TEXT_WIDGET",
+              "type": "FORM_WIDGET",
               "hideCard": false,
+              "shouldScrollContents": true,
               "animateLoading": true,
-              "overflow": "NONE",
-              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-              "parentColumnSpace": 13.046875,
+              "parentColumnSpace": 12.5625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 38,
+              "leftColumn": 35,
               "dynamicBindingPathList": [
                 {
-                  "key": "truncateButtonColor"
-                },
-                {
-                  "key": "fontFamily"
-                },
-                {
                   "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
                 }
               ],
-              "shouldTruncate": false,
-              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "TODO - Add players to team\n- view all players of my team\n- be able to drop players\nview / update player stats",
-              "key": "39vmr0emkl",
+              "children": [
+                {
+                  "widgetName": "Canvas1Copy1",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 400,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Player_Select",
+                      "isFilterable": false,
+                      "displayName": "Select",
+                      "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+                      "labelText": "Player",
+                      "searchTags": [
+                        "dropdown"
+                      ],
+                      "topRow": 5,
+                      "bottomRow": 12,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "type": "SELECT_WIDGET",
+                      "serverSideFiltering": false,
+                      "hideCard": false,
+                      "defaultOptionValue": "",
+                      "animateLoading": true,
+                      "parentColumnSpace": 30.0625,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onOptionChange"
+                        }
+                      ],
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "options"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "options": "{{List_Helper.getMyTeam()}}",
+                      "placeholderText": "Select option",
+                      "isDisabled": false,
+                      "key": "xo5fu5m3js",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "hnbywlw65a",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "mm5r9m8kqj",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "originalTopRow": 19,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 26,
+                      "onOptionChange": "{{Get_Selected_Player.run()}}",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "Text1Copy",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Edit Player",
+                      "key": "8zm7c7sdvn",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "textAlign": "CENTER",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "9cj4cnyzua",
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "mm5r9m8kqj",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.25rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "resetFormOnClick": false,
+                      "boxShadow": "none",
+                      "widgetName": "Button1Copy1",
+                      "onClick": "{{Edit_Player.run(() => Get_My_Team.run(), () => {})}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 34,
+                      "bottomRow": 38,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 18,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "Submit",
+                      "isDisabled": false,
+                      "key": "icwq4agg8j",
+                      "isDeprecated": false,
+                      "rightColumn": 49,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "qmpdqiqzrc",
+                      "minWidth": 120,
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "mm5r9m8kqj",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "hug",
+                      "disabledWhenInvalid": true,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "statusInput",
+                      "displayName": "Input",
+                      "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+                      "onSubmit": "",
+                      "searchTags": [
+                        "form",
+                        "text input",
+                        "number",
+                        "textarea"
+                      ],
+                      "topRow": 12,
+                      "bottomRow": 19,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "autoFocus": false,
+                      "type": "INPUT_WIDGET_V2",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 18.0068359375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onSubmit"
+                        }
+                      ],
+                      "resetOnSubmit": true,
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "defaultText"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "labelStyle": "",
+                      "inputType": "TEXT",
+                      "isDisabled": false,
+                      "key": "d1g7yz8fj2",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 33,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "cnbnaurk2c",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "showStepArrows": false,
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "label": "Status",
+                      "version": 2,
+                      "parentId": "mm5r9m8kqj",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "iconAlign": "left",
+                      "defaultText": "{{Get_Selected_Player.data.playerStatus}}",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "birthdayInput",
+                      "displayName": "Input",
+                      "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+                      "searchTags": [
+                        "form",
+                        "text input",
+                        "number",
+                        "textarea"
+                      ],
+                      "topRow": 19,
+                      "bottomRow": 26,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "autoFocus": false,
+                      "type": "INPUT_WIDGET_V2",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 18.0068359375,
+                      "dynamicTriggerPathList": [],
+                      "resetOnSubmit": true,
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "defaultText"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "labelStyle": "",
+                      "inputType": "TEXT",
+                      "isDisabled": false,
+                      "key": "d1g7yz8fj2",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 33,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "c9byhd7098",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "showStepArrows": false,
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "label": "Birthday",
+                      "version": 2,
+                      "parentId": "mm5r9m8kqj",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "iconAlign": "left",
+                      "defaultText": "{{Get_Selected_Player.data.birthday}}",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "firstNameInput",
+                      "displayName": "Input",
+                      "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+                      "searchTags": [
+                        "form",
+                        "text input",
+                        "number",
+                        "textarea"
+                      ],
+                      "topRow": 26,
+                      "bottomRow": 33,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "autoFocus": false,
+                      "type": "INPUT_WIDGET_V2",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 18.0068359375,
+                      "dynamicTriggerPathList": [],
+                      "resetOnSubmit": true,
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "defaultText"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "labelStyle": "",
+                      "inputType": "TEXT",
+                      "isDisabled": false,
+                      "key": "d1g7yz8fj2",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 33,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "ytowkabn1z",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "showStepArrows": false,
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "label": "First Name",
+                      "version": 2,
+                      "parentId": "mm5r9m8kqj",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "iconAlign": "left",
+                      "defaultText": "{{Get_Selected_Player.data.firstName}}",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "lastNameInput",
+                      "displayName": "Input",
+                      "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+                      "searchTags": [
+                        "form",
+                        "text input",
+                        "number",
+                        "textarea"
+                      ],
+                      "topRow": 26,
+                      "bottomRow": 33,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "autoFocus": false,
+                      "type": "INPUT_WIDGET_V2",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 18.0068359375,
+                      "dynamicTriggerPathList": [],
+                      "resetOnSubmit": true,
+                      "leftColumn": 33,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "defaultText"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "labelStyle": "",
+                      "inputType": "TEXT",
+                      "isDisabled": false,
+                      "key": "d1g7yz8fj2",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "d1tu3fhs26",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "showStepArrows": false,
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "label": "Last Name",
+                      "version": 2,
+                      "parentId": "mm5r9m8kqj",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "iconAlign": "left",
+                      "defaultText": "{{Get_Selected_Player.data.lastName}}",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "joinInput",
+                      "displayName": "Input",
+                      "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+                      "searchTags": [
+                        "form",
+                        "text input",
+                        "number",
+                        "textarea"
+                      ],
+                      "topRow": 19,
+                      "bottomRow": 26,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "autoFocus": false,
+                      "type": "INPUT_WIDGET_V2",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 18.0068359375,
+                      "dynamicTriggerPathList": [],
+                      "resetOnSubmit": true,
+                      "leftColumn": 33,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "defaultText"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "labelStyle": "",
+                      "inputType": "TEXT",
+                      "isDisabled": false,
+                      "key": "d1g7yz8fj2",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "thon11vwgd",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "showStepArrows": false,
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "label": "Join Date",
+                      "version": 2,
+                      "parentId": "mm5r9m8kqj",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "iconAlign": "left",
+                      "defaultText": "{{Get_Selected_Player.data.joinDate}}",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "phoneInput",
+                      "displayName": "Input",
+                      "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+                      "searchTags": [
+                        "form",
+                        "text input",
+                        "number",
+                        "textarea"
+                      ],
+                      "topRow": 12,
+                      "bottomRow": 19,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "autoFocus": false,
+                      "type": "INPUT_WIDGET_V2",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 18.0068359375,
+                      "dynamicTriggerPathList": [],
+                      "resetOnSubmit": true,
+                      "leftColumn": 33,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "defaultText"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "labelStyle": "",
+                      "inputType": "TEXT",
+                      "isDisabled": false,
+                      "key": "d1g7yz8fj2",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "l8vl60lfeh",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "showStepArrows": false,
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "label": "Phone Number",
+                      "version": 2,
+                      "parentId": "mm5r9m8kqj",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "iconAlign": "left",
+                      "defaultText": "{{Get_Selected_Player.data.phoneNumber}}",
+                      "minDynamicHeight": 4
+                    }
+                  ],
+                  "key": "9w8iia8cur",
+                  "isDeprecated": false,
+                  "rightColumn": 301.5,
+                  "detachFromLayout": true,
+                  "widgetId": "mm5r9m8kqj",
+                  "containerStyle": "none",
+                  "minWidth": 450,
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "c9pi68wzny",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "responsiveBehavior": "fill",
+                  "flexLayers": []
+                }
+              ],
+              "borderWidth": "1",
+              "positioning": "fixed",
+              "key": "ydc7iz69hp",
+              "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 54,
-              "textAlign": "LEFT",
+              "rightColumn": 56,
               "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "x9kgh1hiu4",
+              "widgetId": "c9pi68wzny",
               "minWidth": 450,
               "isVisible": true,
-              "fontStyle": "BOLD",
-              "textColor": "#231F20",
-              "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 1,
+              "originalTopRow": 73,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 10,
-              "fontSize": "1rem",
-              "minDynamicHeight": 4
+              "originalBottomRow": 113,
+              "minDynamicHeight": 10
             },
             {
               "boxShadow": "none",
@@ -91,8 +660,8 @@
               "searchTags": [
                 "dropdown"
               ],
-              "topRow": 14,
-              "bottomRow": 21,
+              "topRow": 16,
+              "bottomRow": 23,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "type": "SELECT_WIDGET",
@@ -140,7 +709,7 @@
               "responsiveBehavior": "fill",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "onOptionChange": "{{Get_My_Team.run()}}",
+              "onOptionChange": "{{Get_My_Team.run(() => Get_My_Team_Name.run(), () => {})}}",
               "minDynamicHeight": 4
             },
             {
@@ -148,7 +717,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": false,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 22,
+              "topRow": 23,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -195,6 +764,7 @@
               "leftColumn": 13,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
+              "showInlineEditingOptionDropdown": true,
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisibleFilters": false,
               "isVisible": true,
@@ -226,8 +796,8 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681950059667,
-              "originalBottomRow": 71,
+              "columnUpdatedAt": 1681957367917,
+              "originalBottomRow": 72,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -245,18 +815,19 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 71,
+              "bottomRow": 72,
               "columnWidthMap": {
                 "task": 245,
                 "step": 100,
                 "status": 85,
-                "playerID": 98,
+                "playerID": 100,
                 "teamName": 135.5625,
                 "playerStatus": 146,
-                "lastName": 126,
-                "firstName": 122,
-                "birthday": 249,
-                "joinDate": 248
+                "lastName": 141,
+                "firstName": 120,
+                "birthday": 306,
+                "joinDate": 313,
+                "phoneNumber": 143
               },
               "parentRowSpace": 10,
               "hideCard": false,
@@ -285,7 +856,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "birthday",
+                  "label": "Birthday",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"birthday\"]))}}",
@@ -314,7 +885,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "firstName",
+                  "label": "First Name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"firstName\"]))}}",
@@ -343,7 +914,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "joinDate",
+                  "label": "Join Date",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"joinDate\"]))}}",
@@ -372,7 +943,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "lastName",
+                  "label": "Last Name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastName\"]))}}",
@@ -401,7 +972,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "phoneNumber",
+                  "label": "Phone Number",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"phoneNumber\"]))}}",
@@ -430,7 +1001,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "playerID",
+                  "label": "ID",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"playerID\"]))}}",
@@ -459,7 +1030,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "playerStatus",
+                  "label": "Status",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"playerStatus\"]))}}",
@@ -482,7 +1053,7 @@
                   "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
-                  "isVisible": true,
+                  "isVisible": false,
                   "isDisabled": false,
                   "isCellEditable": false,
                   "isEditable": false,
@@ -512,7 +1083,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 22,
+              "originalTopRow": 23,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             },
@@ -525,8 +1096,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 17,
-              "bottomRow": 21,
+              "topRow": 18,
+              "bottomRow": 23,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -545,11 +1116,14 @@
                 },
                 {
                   "key": "borderRadius"
+                },
+                {
+                  "key": "text"
                 }
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Your Team",
+              "text": "{{Get_My_Team_Name.data || \"\"}}",
               "key": "icm33v9xi2",
               "isDeprecated": false,
               "rightColumn": 42,
@@ -565,11 +1139,11 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 17,
+              "originalTopRow": 18,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 21,
-              "fontSize": "1rem",
+              "originalBottomRow": 23,
+              "fontSize": "1.875rem",
               "minDynamicHeight": 4
             },
             {
@@ -582,8 +1156,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 72,
-              "bottomRow": 94,
+              "topRow": 73,
+              "bottomRow": 95,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -631,7 +1205,7 @@
                       "overflow": "NONE",
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 1.5,
+                      "leftColumn": 2,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -648,7 +1222,7 @@
                       "text": "Sign Player",
                       "key": "icm33v9xi2",
                       "isDeprecated": false,
-                      "rightColumn": 25.5,
+                      "rightColumn": 41,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "nza3ymvicb",
@@ -661,8 +1235,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 7,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     },
@@ -688,7 +1264,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 23,
+                      "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -701,7 +1277,7 @@
                       "isDisabled": false,
                       "key": "wc3fr8ijqm",
                       "isDeprecated": false,
-                      "rightColumn": 39,
+                      "rightColumn": 62,
                       "isDefaultClickDisabled": true,
                       "widgetId": "89uy2eyg94",
                       "minWidth": 120,
@@ -712,8 +1288,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
+                      "originalTopRow": 18,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "originalBottomRow": 22,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -770,8 +1348,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 9,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 16,
                       "minDynamicHeight": 4
                     }
                   ],
@@ -805,10 +1385,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 72,
+              "originalTopRow": 73,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 94,
+              "originalBottomRow": 95,
               "minDynamicHeight": 10
             },
             {
@@ -821,8 +1401,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 72,
-              "bottomRow": 94,
+              "topRow": 73,
+              "bottomRow": 95,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -870,7 +1450,7 @@
                       "overflow": "NONE",
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 1.5,
+                      "leftColumn": 2,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -887,7 +1467,7 @@
                       "text": "Fire Player",
                       "key": "icm33v9xi2",
                       "isDeprecated": false,
-                      "rightColumn": 25.5,
+                      "rightColumn": 41,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "zd91lnjva2",
@@ -900,8 +1480,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 7,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     },
@@ -927,7 +1509,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 23,
+                      "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -940,7 +1522,7 @@
                       "isDisabled": false,
                       "key": "wc3fr8ijqm",
                       "isDeprecated": false,
-                      "rightColumn": 39,
+                      "rightColumn": 64,
                       "isDefaultClickDisabled": true,
                       "widgetId": "s1imw6jhr1",
                       "minWidth": 120,
@@ -951,8 +1533,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
+                      "originalTopRow": 18,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "originalBottomRow": 22,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -1009,8 +1593,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 9,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 16,
                       "minDynamicHeight": 4
                     }
                   ],
@@ -1044,10 +1630,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 72,
+              "originalTopRow": 73,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 94,
+              "originalBottomRow": 95,
               "minDynamicHeight": 10
             }
           ]
@@ -1079,6 +1665,28 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "Select1.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Coach Manage Players_Get_My_Team_Name",
+              "name": "Get_My_Team_Name",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Select1.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Coach Manage Players_Get_Selected_Player",
+              "name": "Get_Selected_Player",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Player_Select.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }

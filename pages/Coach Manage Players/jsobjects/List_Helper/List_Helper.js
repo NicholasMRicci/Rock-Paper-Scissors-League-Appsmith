@@ -51,5 +51,19 @@ export default {
 		let birthday = new Date(player["birthday"])
 		player["birthday"] = birthday.toISOString().split('T')[0];
 		return player
-	}
+	},
+	editPlayer() {
+		let playerID = parseInt(Player_Select.selectedOptionValue)
+		let player = List_Helper.getPlayer(playerID)
+		let joinDate = new Date(joinInput.inputText)
+		player["joinDate"] = joinDate.toISOString().split('T')[0];
+		let birthday = new Date(birthdayInput.inputText)
+		player["birthday"] = birthday.toISOString().split('T')[0];
+		player["playerStatus"] = `${statusInput.inputText}`
+		player["firstName"] = firstNameInput.inputText
+		player["lastName"] = lastNameInput.inputText
+		player["phoneNumber"] = phoneInput.inputText
+		
+		return player
+	},
 }
