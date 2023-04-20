@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Coach View Players",
-    "slug": "coach-view-players",
+    "name": "Coach Players",
+    "slug": "coach-players",
     "layouts": [
       {
         "viewMode": false,
@@ -596,7 +596,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Coach View Players",
+        "id": "Coach Players",
         "deleted": false,
         "policies": [],
         "userPermissions": []
