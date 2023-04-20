@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 680,
+          "bottomRow": 830,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -127,7 +127,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 34,
+              "bottomRow": 50,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -400,8 +400,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 35,
-              "bottomRow": 68,
+              "topRow": 50,
+              "bottomRow": 83,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -931,10 +931,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 35,
+              "originalTopRow": 50,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 68,
+              "originalBottomRow": 83,
               "minDynamicHeight": 10
             },
             {
@@ -949,8 +949,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 30,
-              "bottomRow": 34,
+              "topRow": 46,
+              "bottomRow": 50,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -961,7 +961,7 @@
                   "key": "onClick"
                 }
               ],
-              "leftColumn": 38,
+              "leftColumn": 37,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -971,7 +971,7 @@
               "isDisabled": false,
               "key": "icwq4agg8j",
               "isDeprecated": false,
-              "rightColumn": 45,
+              "rightColumn": 44,
               "isDefaultClickDisabled": true,
               "widgetId": "6gcslnxlea",
               "minWidth": 120,
