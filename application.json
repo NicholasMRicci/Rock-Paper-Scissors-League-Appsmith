@@ -9,11 +9,11 @@
       "isDefault": true
     },
     {
-      "id": "Match History",
+      "id": "Coach Match History",
       "isDefault": false
     },
     {
-      "id": "Statistics",
+      "id": "Spectator Statistics",
       "isDefault": false
     }
   ],
