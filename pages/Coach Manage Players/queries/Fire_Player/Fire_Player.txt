@@ -1,1 +1,1 @@
-{{List_Helper.firePlayer()}}
+{{Helper.firePlayer()}}

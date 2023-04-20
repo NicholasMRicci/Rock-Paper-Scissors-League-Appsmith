@@ -106,7 +106,7 @@
                         }
                       ],
                       "labelPosition": "Top",
-                      "options": "{{List_Helper.getMyTeam()}}",
+                      "options": "{{Helper.getMyTeam()}}",
                       "placeholderText": "Select option",
                       "isDisabled": false,
                       "key": "xo5fu5m3js",
@@ -688,7 +688,7 @@
                 }
               ],
               "labelPosition": "Top",
-              "options": "{{List_Helper.getCoaches()}}",
+              "options": "{{Helper.getCoaches()}}",
               "placeholderText": "Select option",
               "isDisabled": false,
               "key": "pjnqcmwrpl",
@@ -1329,7 +1329,7 @@
                         }
                       ],
                       "labelPosition": "Top",
-                      "options": "{{List_Helper.getPlayerNames()}}",
+                      "options": "{{Helper.getPlayerNames()}}",
                       "placeholderText": "Select option",
                       "isDisabled": false,
                       "key": "pjnqcmwrpl",
@@ -1574,7 +1574,7 @@
                         }
                       ],
                       "labelPosition": "Top",
-                      "options": "{{List_Helper.getMyTeam()}}",
+                      "options": "{{Helper.getMyTeam()}}",
                       "placeholderText": "Select option",
                       "isDisabled": false,
                       "key": "pjnqcmwrpl",

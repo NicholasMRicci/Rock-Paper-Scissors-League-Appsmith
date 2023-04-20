@@ -1,1 +1,1 @@
-{{List_Helper.signPlayer()}}
+{{Helper.signPlayer()}}

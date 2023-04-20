@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{List_Helper.editPlayer()}}",
+      "body": "{{Helper.editPlayer()}}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -56,7 +56,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "List_Helper.editPlayer()",
+      "Helper.editPlayer()",
       "Player_Select.selectedOptionValue"
     ],
     "userSetOnLoad": false,

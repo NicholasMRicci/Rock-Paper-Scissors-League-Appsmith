@@ -1,1 +1,1 @@
-{{List_Helper.editPlayer()}}
+{{Helper.editPlayer()}}
