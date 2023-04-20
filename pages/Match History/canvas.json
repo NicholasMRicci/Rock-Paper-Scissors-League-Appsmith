@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 500,
+          "bottomRow": 900,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -52,13 +52,7 @@
                   "key": "primaryColumns.gameID.computedValue"
                 },
                 {
-                  "key": "primaryColumns.player1ID.computedValue"
-                },
-                {
                   "key": "primaryColumns.player1Throw.computedValue"
-                },
-                {
-                  "key": "primaryColumns.player2ID.computedValue"
                 },
                 {
                   "key": "primaryColumns.player2Throw.computedValue"
@@ -70,7 +64,13 @@
                   "key": "primaryColumns.team2.computedValue"
                 },
                 {
-                  "key": "primaryColumns.tournamentID.computedValue"
+                  "key": "primaryColumns.player1.computedValue"
+                },
+                {
+                  "key": "primaryColumns.player2.computedValue"
+                },
+                {
+                  "key": "primaryColumns.tournament.computedValue"
                 }
               ],
               "needsHeightForContent": true,
@@ -109,21 +109,21 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681944543745,
+              "columnUpdatedAt": 1681948767076,
               "defaultSelectedRowIndices": [
                 0
               ],
               "widgetName": "Table2",
               "defaultPageSize": 0,
               "columnOrder": [
-                "gameID",
-                "player1ID",
+                "player1",
                 "player1Throw",
-                "player2ID",
+                "player2",
                 "player2Throw",
                 "team1",
                 "team2",
-                "tournamentID"
+                "tournament",
+                "gameID"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
@@ -168,35 +168,6 @@
                   "validation": {},
                   "cellBackground": ""
                 },
-                "player1ID": {
-                  "allowCellWrapping": false,
-                  "index": 1,
-                  "width": 150,
-                  "originalId": "player1ID",
-                  "id": "player1ID",
-                  "alias": "player1ID",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "number",
-                  "textColor": "",
-                  "textSize": "0.875rem",
-                  "fontStyle": "",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "player1ID",
-                  "isSaveVisible": true,
-                  "isDiscardVisible": true,
-                  "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"player1ID\"]))}}",
-                  "sticky": "",
-                  "validation": {},
-                  "cellBackground": ""
-                },
                 "player1Throw": {
                   "allowCellWrapping": false,
                   "index": 2,
@@ -222,35 +193,6 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"player1Throw\"]))}}",
-                  "sticky": "",
-                  "validation": {},
-                  "cellBackground": ""
-                },
-                "player2ID": {
-                  "allowCellWrapping": false,
-                  "index": 3,
-                  "width": 150,
-                  "originalId": "player2ID",
-                  "id": "player2ID",
-                  "alias": "player2ID",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "number",
-                  "textColor": "",
-                  "textSize": "0.875rem",
-                  "fontStyle": "",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "player2ID",
-                  "isSaveVisible": true,
-                  "isDiscardVisible": true,
-                  "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"player2ID\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -342,16 +284,16 @@
                   "validation": {},
                   "cellBackground": ""
                 },
-                "tournamentID": {
+                "player1": {
                   "allowCellWrapping": false,
-                  "index": 7,
+                  "index": 0,
                   "width": 150,
-                  "originalId": "tournamentID",
-                  "id": "tournamentID",
-                  "alias": "tournamentID",
+                  "originalId": "player1",
+                  "id": "player1",
+                  "alias": "player1",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
-                  "columnType": "number",
+                  "columnType": "text",
                   "textColor": "",
                   "textSize": "0.875rem",
                   "fontStyle": "",
@@ -363,10 +305,68 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "tournamentID",
+                  "label": "player1",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"tournamentID\"]))}}",
+                  "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"player1\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "player2": {
+                  "allowCellWrapping": false,
+                  "index": 2,
+                  "width": 150,
+                  "originalId": "player2",
+                  "id": "player2",
+                  "alias": "player2",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "player2",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"player2\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "tournament": {
+                  "allowCellWrapping": false,
+                  "index": 6,
+                  "width": 150,
+                  "originalId": "tournament",
+                  "id": "tournament",
+                  "alias": "tournament",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "tournament",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"tournament\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -379,7 +379,7 @@
               "textSize": "0.875rem",
               "widgetId": "9wte60bhmn",
               "minWidth": 450,
-              "tableData": "{{Matches.data}}",
+              "tableData": "{{Player_Id_to_player.getMatches()}}",
               "label": "Data",
               "searchKey": "",
               "parentId": "0",
@@ -389,14 +389,309 @@
               "responsiveBehavior": "fill",
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "borderColor": "#E0DEDE",
+              "widgetName": "Form1",
+              "isCanvas": true,
+              "displayName": "Form",
+              "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
+              "searchTags": [
+                "group"
+              ],
+              "topRow": 51,
+              "bottomRow": 90,
+              "parentRowSpace": 10,
+              "type": "FORM_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                }
+              ],
+              "children": [
+                {
+                  "widgetName": "Canvas1",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 390,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "widgetName": "Text1",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "leftColumn": 1.5,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Form",
+                      "key": "8zm7c7sdvn",
+                      "isDeprecated": false,
+                      "rightColumn": 25.5,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "3ev8k6me25",
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "hbuudonpwi",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.25rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "resetFormOnClick": true,
+                      "boxShadow": "none",
+                      "widgetName": "Button1",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 33,
+                      "bottomRow": 37,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "leftColumn": 46,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "Submit",
+                      "isDisabled": false,
+                      "key": "icwq4agg8j",
+                      "isDeprecated": false,
+                      "rightColumn": 62,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "mc0f7uw5qp",
+                      "minWidth": 120,
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "hbuudonpwi",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "hug",
+                      "disabledWhenInvalid": true,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "resetFormOnClick": true,
+                      "boxShadow": "none",
+                      "widgetName": "Button2",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 33,
+                      "bottomRow": 37,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "leftColumn": 30,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "Reset",
+                      "isDisabled": false,
+                      "key": "icwq4agg8j",
+                      "isDeprecated": false,
+                      "rightColumn": 46,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "9sbz7j7nf9",
+                      "minWidth": 120,
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "hbuudonpwi",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "hug",
+                      "disabledWhenInvalid": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "SECONDARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Input1",
+                      "displayName": "Input",
+                      "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+                      "searchTags": [
+                        "form",
+                        "text input",
+                        "number",
+                        "textarea"
+                      ],
+                      "topRow": 5,
+                      "bottomRow": 12,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "autoFocus": false,
+                      "type": "INPUT_WIDGET_V2",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 4.3984375,
+                      "dynamicTriggerPathList": [],
+                      "resetOnSubmit": true,
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "labelStyle": "",
+                      "inputType": "TEXT",
+                      "isDisabled": false,
+                      "key": "ohtbh4se43",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 22,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "yllf3nffzt",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "showStepArrows": false,
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "label": "Player 1",
+                      "version": 2,
+                      "parentId": "hbuudonpwi",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "iconAlign": "left",
+                      "defaultText": "",
+                      "minDynamicHeight": 4
+                    }
+                  ],
+                  "key": "9w8iia8cur",
+                  "isDeprecated": false,
+                  "rightColumn": 301.5,
+                  "detachFromLayout": true,
+                  "widgetId": "hbuudonpwi",
+                  "containerStyle": "none",
+                  "minWidth": 450,
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "z2jak5uzu8",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "responsiveBehavior": "fill",
+                  "flexLayers": []
+                }
+              ],
+              "borderWidth": "1",
+              "positioning": "fixed",
+              "key": "ydc7iz69hp",
+              "backgroundColor": "#FFFFFF",
+              "isDeprecated": false,
+              "rightColumn": 24,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "z2jak5uzu8",
+              "minWidth": 450,
+              "isVisible": true,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 51,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 90,
+              "minDynamicHeight": 10
             }
           ]
         },
         "layoutOnLoadActions": [
           [
             {
+              "id": "Match History_Get_Players",
+              "name": "Get_Players",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Match History_Matches",
               "name": "Matches",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Match History_Tournaments",
+              "name": "Tournaments",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],

@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "getTeamNames",
-    "fullyQualifiedName": "List_Helper.getTeamNames",
+    "name": "getMatches",
+    "fullyQualifiedName": "Player_Id_to_player.getMatches",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Statistics",
-    "collectionId": "Statistics_List_Helper",
+    "pageId": "Match History",
+    "collectionId": "Match History_Player_Id_to_player",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -37,7 +37,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Statistics_List_Helper.getTeamNames",
+  "id": "Match History_Player_Id_to_player.getMatches",
   "deleted": false,
-  "gitSyncId": "643dae411931040a021e5bab_6440682761dc526593781bf4"
+  "gitSyncId": "644065fce5422a11ac935eb8_644078afe5422a11ac935ef1"
 }
