@@ -1656,40 +1656,6 @@
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
-          ],
-          [
-            {
-              "id": "Coach Manage Players_Get_My_Team",
-              "name": "Get_My_Team",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Select1.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Coach Manage Players_Get_My_Team_Name",
-              "name": "Get_My_Team_Name",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Select1.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Coach Manage Players_Get_Selected_Player",
-              "name": "Get_Selected_Player",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Player_Select.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
           ]
         ],
         "layoutOnLoadActionErrors": [],

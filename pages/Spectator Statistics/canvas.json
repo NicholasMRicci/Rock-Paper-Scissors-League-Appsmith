@@ -3468,48 +3468,6 @@
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
-          ],
-          [
-            {
-              "id": "Spectator Statistics_Get_Player_Stats",
-              "name": "Get_Player_Stats",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Player_Select.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Spectator Statistics_Get_Season_Stats",
-              "name": "Get_Season_Stats",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Season_Select.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Spectator Statistics_Get_Team_Stats",
-              "name": "Get_Team_Stats",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Team_Select.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Spectator Statistics_Get_Tournament_Stats",
-              "name": "Get_Tournament_Stats",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Tournament_Select.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
           ]
         ],
         "layoutOnLoadActionErrors": [],

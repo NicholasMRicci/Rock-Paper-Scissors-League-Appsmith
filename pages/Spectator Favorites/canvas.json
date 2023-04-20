@@ -1533,28 +1533,6 @@
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
-          ],
-          [
-            {
-              "id": "Spectator Favorites_Get_Fav_Players",
-              "name": "Get_Fav_Players",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Select1.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Spectator Favorites_Get_Fav_Teams",
-              "name": "Get_Fav_Teams",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Select1.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
           ]
         ],
         "layoutOnLoadActionErrors": [],
