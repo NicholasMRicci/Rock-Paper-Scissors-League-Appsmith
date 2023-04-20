@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Statistics",
+    "pageId": "Coach Manage Players",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -48,7 +48,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Statistics_Get_Players",
+  "id": "Coach Manage Players_Get_Players",
   "deleted": false,
-  "gitSyncId": "643dae411931040a021e5bab_64405be761dc526593781bda"
+  "gitSyncId": "643dae411931040a021e5bab_644086a861dc526593781c34"
 }

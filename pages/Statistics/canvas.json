@@ -424,7 +424,7 @@
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
               "hideCard": false,
-              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( List_Helper.getPlayerNames()[0]))(Player_Select.options, Player_Select.serverSideFiltering) }}",
+              "defaultOptionValue": "",
               "animateLoading": true,
               "parentColumnSpace": 30.0625,
               "dynamicTriggerPathList": [
@@ -442,9 +442,6 @@
                 },
                 {
                   "key": "options"
-                },
-                {
-                  "key": "defaultOptionValue"
                 }
               ],
               "labelPosition": "Top",
@@ -491,7 +488,7 @@
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
               "hideCard": false,
-              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( List_Helper.getTeamNames()[0]))(Team_Select.options, Team_Select.serverSideFiltering) }}",
+              "defaultOptionValue": "",
               "animateLoading": true,
               "parentColumnSpace": 30.0625,
               "dynamicTriggerPathList": [
@@ -509,9 +506,6 @@
                 },
                 {
                   "key": "options"
-                },
-                {
-                  "key": "defaultOptionValue"
                 }
               ],
               "labelPosition": "Top",
@@ -558,7 +552,7 @@
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
               "hideCard": false,
-              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( List_Helper.getTournamentNames()[0]))(Tournament_Select.options, Tournament_Select.serverSideFiltering) }}",
+              "defaultOptionValue": "",
               "animateLoading": true,
               "parentColumnSpace": 30.0625,
               "dynamicTriggerPathList": [
@@ -576,9 +570,6 @@
                 },
                 {
                   "key": "options"
-                },
-                {
-                  "key": "defaultOptionValue"
                 }
               ],
               "labelPosition": "Top",
@@ -625,7 +616,7 @@
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
               "hideCard": false,
-              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( List_Helper.getSeasons()[0]))(Season_Select.options, Season_Select.serverSideFiltering) }}",
+              "defaultOptionValue": "",
               "animateLoading": true,
               "parentColumnSpace": 30.0625,
               "dynamicTriggerPathList": [
@@ -643,9 +634,6 @@
                 },
                 {
                   "key": "options"
-                },
-                {
-                  "key": "defaultOptionValue"
                 }
               ],
               "labelPosition": "Top",
@@ -3402,7 +3390,7 @@
                       "originalTopRow": 5,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 9,
+                      "originalBottomRow": 18,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     }
@@ -3441,7 +3429,7 @@
               "originalTopRow": 25,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 36,
+              "originalBottomRow": 45,
               "minDynamicHeight": 10
             }
           ]

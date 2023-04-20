@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "List_Helper",
+    "pageId": "Coach Manage Players",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Coach Manage Players_List_Helper",
+  "deleted": false,
+  "gitSyncId": "643dae411931040a021e5bab_644082bf61dc526593781c2d"
+}
