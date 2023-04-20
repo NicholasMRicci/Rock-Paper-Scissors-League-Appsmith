@@ -21,7 +21,14 @@ export default {
 				"gameID": match.gameID
 			}
 		})
-		
-	}
+	},
 	
+	teamsForPlayers() {
+		let players = Get_Players.data
+		console.log(Player1_Select.selectedOptionValue)
+		return [
+			players.find((pl) => { return pl.playerID == Player1_Select.selectedOptionValue }).teamName,
+			players.find((pl) => { return pl.playerID == Player_2Select.selectedOptionValue }).teamName,
+		]
+	}
 }

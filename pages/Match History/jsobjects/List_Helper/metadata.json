@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "List_Helper",
+    "pageId": "Match History",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Match History_List_Helper",
+  "deleted": false,
+  "gitSyncId": "644065fce5422a11ac935eb8_644082a9e5422a11ac935f0f"
+}

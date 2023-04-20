@@ -1,0 +1,9 @@
+{{{
+	"player1ID": Player1_Select.selectedOptionValue,
+	"player1Throw": Throw1.selectedOptionValue,	
+	"player2ID": Player_2Select.selectedOptionValue,
+	"player2Throw": Throw2.selectedOptionValue,
+	"team1": Player_Id_to_player.teamsForPlayers()[0],
+	"team2": Player_Id_to_player.teamsForPlayers()[1],
+	"tournamentID": Tournament_Select.selectedOptionValue
+}}}

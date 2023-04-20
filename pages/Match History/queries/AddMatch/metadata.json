@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{{{\n\t\"player1ID\": Player1_Select.selectedOptionValue,\n\t\"player1Throw\": Throw1.selectedOptionValue,\t\n\t\"player2ID\": Player_2Select.selectedOptionValue,\n\t\"player2Throw\": Throw2.selectedOptionValue,\n\t\"team1\": Player_Id_to_player.teamsForPlayers()[0],\n\t\"team2\": Player_Id_to_player.teamsForPlayers()[1],\n\t\"tournamentID\": Tournament_Select.selectedOptionValue\n}}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -43,11 +43,17 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "{\n\t\"player1ID\": Player1_Select.selectedOptionValue,\n\t\"player1Throw\": Throw1.selectedOptionValue,\t\n\t\"player2ID\": Player_2Select.selectedOptionValue,\n\t\"player2Throw\": Throw2.selectedOptionValue,\n\t\"team1\": Player_Id_to_player.teamsForPlayers()[0],\n\t\"team2\": Player_Id_to_player.teamsForPlayers()[1],\n\t\"tournamentID\": Tournament_Select.selectedOptionValue\n}"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
