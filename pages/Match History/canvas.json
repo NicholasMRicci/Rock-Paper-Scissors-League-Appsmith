@@ -554,7 +554,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 26,
-                      "onOptionChange": "{{Get_Player_Stats.run()}}",
+                      "onOptionChange": "",
                       "minDynamicHeight": 4
                     },
                     {
@@ -615,7 +615,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 26,
-                      "onOptionChange": "{{Get_Player_Stats.run()}}",
+                      "onOptionChange": "",
                       "minDynamicHeight": 4
                     },
                     {
@@ -679,7 +679,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 26,
-                      "onOptionChange": "{{Get_Player_Stats.run()}}",
+                      "onOptionChange": "",
                       "minDynamicHeight": 4
                     },
                     {
@@ -743,7 +743,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 26,
-                      "onOptionChange": "{{Get_Player_Stats.run()}}",
+                      "onOptionChange": "",
                       "minDynamicHeight": 4
                     },
                     {
