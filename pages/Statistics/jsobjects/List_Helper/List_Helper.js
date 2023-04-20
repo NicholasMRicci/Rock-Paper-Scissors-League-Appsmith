@@ -14,5 +14,21 @@ export default {
 			result.push({"label": data[team]["teamName"], "value":  data[team]["teamName"]})
 		}
 		return result
+	},
+	getTournamentNames() {
+		let data = Get_Tournaments.data
+		let result = []
+		for (let tourn in data) {
+			result.push({"label": data[tourn]["tournamentName"], "value":  data[tourn]["tournamentID"]})
+		}
+		return result
+	},
+	getSeasons() {
+		let data = Get_Seasons.data
+		let result = []
+		for (let season in data) {
+			result.push({"label": data[season]["seasonYear"].toString(), "value":  data[season]["seasonYear"].toString()})
+		}
+		return result
 	}
 }

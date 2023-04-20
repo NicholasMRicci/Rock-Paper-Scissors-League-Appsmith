@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "getTeamNames",
-    "fullyQualifiedName": "List_Helper.getTeamNames",
+    "name": "getSeasons",
+    "fullyQualifiedName": "List_Helper.getSeasons",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -37,7 +37,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Statistics_List_Helper.getTeamNames",
+  "id": "Statistics_List_Helper.getSeasons",
   "deleted": false,
-  "gitSyncId": "643dae411931040a021e5bab_6440682761dc526593781bf4"
+  "gitSyncId": "643dae411931040a021e5bab_64406e4761dc526593781bff"
 }

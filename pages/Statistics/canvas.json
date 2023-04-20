@@ -26,6 +26,388 @@
           "leftColumn": 0,
           "children": [
             {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "winCountStatsCopyCopyCopyCopy",
+              "borderColor": "#E0DEDE",
+              "isCanvas": true,
+              "displayName": "Stats Box",
+              "iconSVG": "/static/media/icon.382a7c7bc55323fbbd8edd79208c5324.svg",
+              "topRow": 25,
+              "bottomRow": 39,
+              "parentRowSpace": 10,
+              "type": "STATBOX_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "animateLoading": true,
+              "parentColumnSpace": 30.0625,
+              "leftColumn": 29,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                }
+              ],
+              "children": [
+                {
+                  "widgetName": "Canvas1Copy1CopyCopyCopy",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 140,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 140,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "widgetName": "Text1CopyCopyCopyCopy",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 5,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Games Played",
+                      "key": "lvqf2ir3b9",
+                      "isDeprecated": false,
+                      "rightColumn": 57,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "02udz4b1gx",
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#999999",
+                      "version": 1,
+                      "parentId": "pl5lfl7wk0",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "originalTopRow": 0,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 5,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "Text2Copy1CopyCopyCopy",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 6,
+                      "bottomRow": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "{{Get_Tournament_Stats.data.gamesPlayed || 0}}",
+                      "key": "lvqf2ir3b9",
+                      "isDeprecated": false,
+                      "rightColumn": 34,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "dz3ygcru52",
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "pl5lfl7wk0",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "originalTopRow": 6,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 10,
+                      "fontSize": "1.25rem",
+                      "minDynamicHeight": 4
+                    }
+                  ],
+                  "key": "txfa6shi5s",
+                  "isDeprecated": false,
+                  "rightColumn": 300.625,
+                  "detachFromLayout": true,
+                  "widgetId": "pl5lfl7wk0",
+                  "containerStyle": "none",
+                  "minWidth": 450,
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "gplbh9h3kx",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "responsiveBehavior": "fill",
+                  "flexLayers": []
+                }
+              ],
+              "borderWidth": "1",
+              "positioning": "fixed",
+              "key": "1vhi1rq4nk",
+              "backgroundColor": "white",
+              "isDeprecated": false,
+              "rightColumn": 34,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "gplbh9h3kx",
+              "isVisible": true,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "originalTopRow": 25,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 39,
+              "minDynamicHeight": 14
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Container1Copy",
+              "borderColor": "#E0DEDE",
+              "isCanvas": true,
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+              "searchTags": [
+                "div",
+                "parent",
+                "group"
+              ],
+              "topRow": 25,
+              "bottomRow": 36,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "animateLoading": true,
+              "parentColumnSpace": 29.953125,
+              "leftColumn": 34,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                }
+              ],
+              "children": [
+                {
+                  "widgetName": "Canvas2Copy",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 110,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 100,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "widgetName": "Text5Copy",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 5,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 29.953125,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Teams Participated",
+                      "key": "tmwtgvlhig",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "0zpl7qejqa",
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "tbtlrysbjs",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "originalTopRow": 0,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 5,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "Text4Copy",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 5,
+                      "bottomRow": 9,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 29.953125,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "{{Get_Tournament_Stats.data.teamsParticipated}}",
+                      "key": "tmwtgvlhig",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "tyadc0uhq3",
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "tbtlrysbjs",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "originalTopRow": 5,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 9,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    }
+                  ],
+                  "key": "0ohoheh9gf",
+                  "isDeprecated": false,
+                  "rightColumn": 718.875,
+                  "detachFromLayout": true,
+                  "widgetId": "tbtlrysbjs",
+                  "containerStyle": "none",
+                  "minWidth": 450,
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "1iju1g7pzf",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "responsiveBehavior": "fill",
+                  "flexLayers": []
+                }
+              ],
+              "borderWidth": "1",
+              "key": "3xww65lk34",
+              "backgroundColor": "#FFFFFF",
+              "isDeprecated": false,
+              "rightColumn": 39,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "1iju1g7pzf",
+              "containerStyle": "card",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 25,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 36,
+              "minDynamicHeight": 10
+            },
+            {
               "boxShadow": "none",
               "widgetName": "Player_Select",
               "isFilterable": false,
@@ -42,7 +424,7 @@
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
               "hideCard": false,
-              "defaultOptionValue": "",
+              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( List_Helper.getPlayerNames()[0]))(Player_Select.options, Player_Select.serverSideFiltering) }}",
               "animateLoading": true,
               "parentColumnSpace": 30.0625,
               "dynamicTriggerPathList": [
@@ -60,10 +442,13 @@
                 },
                 {
                   "key": "options"
+                },
+                {
+                  "key": "defaultOptionValue"
                 }
               ],
               "labelPosition": "Top",
-              "options": "{{List_Helper.getPlayerNames.data}}",
+              "options": "{{List_Helper.getPlayerNames()}}",
               "placeholderText": "Select option",
               "isDisabled": false,
               "key": "xo5fu5m3js",
@@ -106,7 +491,7 @@
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
               "hideCard": false,
-              "defaultOptionValue": "",
+              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( List_Helper.getTeamNames()[0]))(Team_Select.options, Team_Select.serverSideFiltering) }}",
               "animateLoading": true,
               "parentColumnSpace": 30.0625,
               "dynamicTriggerPathList": [
@@ -124,10 +509,13 @@
                 },
                 {
                   "key": "options"
+                },
+                {
+                  "key": "defaultOptionValue"
                 }
               ],
               "labelPosition": "Top",
-              "options": "{{List_Helper.getTeamNames.data}}",
+              "options": "{{List_Helper.getTeamNames()}}",
               "placeholderText": "Select option",
               "isDisabled": false,
               "key": "xo5fu5m3js",
@@ -155,22 +543,22 @@
             },
             {
               "boxShadow": "none",
-              "widgetName": "Team_SelectCopy",
+              "widgetName": "Tournament_Select",
               "isFilterable": false,
               "displayName": "Select",
               "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
-              "labelText": "TournamentID",
+              "labelText": "Tournament Name",
               "searchTags": [
                 "dropdown"
               ],
-              "topRow": 19,
-              "bottomRow": 26,
+              "topRow": 18,
+              "bottomRow": 25,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
               "hideCard": false,
-              "defaultOptionValue": "",
+              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( List_Helper.getTournamentNames()[0]))(Tournament_Select.options, Tournament_Select.serverSideFiltering) }}",
               "animateLoading": true,
               "parentColumnSpace": 30.0625,
               "dynamicTriggerPathList": [
@@ -188,10 +576,13 @@
                 },
                 {
                   "key": "options"
+                },
+                {
+                  "key": "defaultOptionValue"
                 }
               ],
               "labelPosition": "Top",
-              "options": "{{List_Helper.getTeamNames.data}}",
+              "options": "{{List_Helper.getTournamentNames()}}",
               "placeholderText": "Select option",
               "isDisabled": false,
               "key": "xo5fu5m3js",
@@ -210,16 +601,16 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 19,
+              "originalTopRow": 18,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 26,
-              "onOptionChange": "{{Get_Team_Stats.run()}}",
+              "originalBottomRow": 25,
+              "onOptionChange": "{{Get_Tournament_Stats.run()}}",
               "minDynamicHeight": 4
             },
             {
               "boxShadow": "none",
-              "widgetName": "Team_SelectCopyCopy",
+              "widgetName": "Season_Select",
               "isFilterable": false,
               "displayName": "Select",
               "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
@@ -227,14 +618,14 @@
               "searchTags": [
                 "dropdown"
               ],
-              "topRow": 19,
-              "bottomRow": 26,
+              "topRow": 18,
+              "bottomRow": 25,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
               "hideCard": false,
-              "defaultOptionValue": "",
+              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( List_Helper.getSeasons()[0]))(Season_Select.options, Season_Select.serverSideFiltering) }}",
               "animateLoading": true,
               "parentColumnSpace": 30.0625,
               "dynamicTriggerPathList": [
@@ -252,10 +643,13 @@
                 },
                 {
                   "key": "options"
+                },
+                {
+                  "key": "defaultOptionValue"
                 }
               ],
               "labelPosition": "Top",
-              "options": "{{List_Helper.getTeamNames.data}}",
+              "options": "{{List_Helper.getSeasons()}}",
               "placeholderText": "Select option",
               "isDisabled": false,
               "key": "xo5fu5m3js",
@@ -274,11 +668,11 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 19,
+              "originalTopRow": 18,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 26,
-              "onOptionChange": "{{Get_Team_Stats.run()}}",
+              "originalBottomRow": 25,
+              "onOptionChange": "{{Get_Season_Stats.run()}}",
               "minDynamicHeight": 4
             },
             {
@@ -370,7 +764,7 @@
                       "originalTopRow": 0,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 5,
+                      "originalBottomRow": 7,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
@@ -424,10 +818,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 6,
+                      "originalTopRow": 8,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 10,
+                      "originalBottomRow": 12,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     }
@@ -593,7 +987,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Team_Stats.data.winCount}}",
+                      "text": "{{Get_Team_Stats.data.winCount || 0}}",
                       "key": "lvqf2ir3b9",
                       "isDeprecated": false,
                       "rightColumn": 34,
@@ -653,198 +1047,13 @@
             },
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "winCountStatsCopyCopy",
-              "borderColor": "#E0DEDE",
-              "isCanvas": true,
-              "displayName": "Stats Box",
-              "iconSVG": "/static/media/icon.382a7c7bc55323fbbd8edd79208c5324.svg",
-              "topRow": 26,
-              "bottomRow": 40,
-              "parentRowSpace": 10,
-              "type": "STATBOX_WIDGET",
-              "hideCard": false,
-              "shouldScrollContents": true,
-              "animateLoading": true,
-              "parentColumnSpace": 30.0625,
-              "leftColumn": 29,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
-                {
-                  "key": "boxShadow"
-                }
-              ],
-              "children": [
-                {
-                  "widgetName": "Canvas1Copy1Copy",
-                  "displayName": "Canvas",
-                  "topRow": 0,
-                  "bottomRow": 140,
-                  "parentRowSpace": 1,
-                  "type": "CANVAS_WIDGET",
-                  "canExtend": false,
-                  "hideCard": true,
-                  "minHeight": 140,
-                  "parentColumnSpace": 1,
-                  "leftColumn": 0,
-                  "dynamicBindingPathList": [],
-                  "children": [
-                    {
-                      "widgetName": "Text1CopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Win Count",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 57,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "v34gg5bj4j",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#999999",
-                      "version": 1,
-                      "parentId": "637iw6qdk6",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 0,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 5,
-                      "fontSize": "1rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text2Copy1Copy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 5,
-                      "bottomRow": 9,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Team_Stats.data.winCount}}",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 34,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "wfrg1bzrd5",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "637iw6qdk6",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 6,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 10,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    }
-                  ],
-                  "key": "txfa6shi5s",
-                  "isDeprecated": false,
-                  "rightColumn": 300.625,
-                  "detachFromLayout": true,
-                  "widgetId": "637iw6qdk6",
-                  "containerStyle": "none",
-                  "minWidth": 450,
-                  "isVisible": true,
-                  "version": 1,
-                  "parentId": "o6ivhpledb",
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
-                  "responsiveBehavior": "fill",
-                  "flexLayers": []
-                }
-              ],
-              "borderWidth": "1",
-              "positioning": "fixed",
-              "key": "1vhi1rq4nk",
-              "backgroundColor": "white",
-              "isDeprecated": false,
-              "rightColumn": 34,
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "o6ivhpledb",
-              "isVisible": true,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "originalTopRow": 26,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "originalBottomRow": 40,
-              "minDynamicHeight": 14
-            },
-            {
-              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "winCountStatsCopyCopyCopy",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Stats Box",
               "iconSVG": "/static/media/icon.382a7c7bc55323fbbd8edd79208c5324.svg",
-              "topRow": 26,
-              "bottomRow": 40,
+              "topRow": 25,
+              "bottomRow": 39,
               "parentRowSpace": 10,
               "type": "STATBOX_WIDGET",
               "hideCard": false,
@@ -885,7 +1094,7 @@
                         "label"
                       ],
                       "topRow": 0,
-                      "bottomRow": 4,
+                      "bottomRow": 5,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -906,7 +1115,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Win Count",
+                      "text": "Games Played",
                       "key": "lvqf2ir3b9",
                       "isDeprecated": false,
                       "rightColumn": 57,
@@ -938,8 +1147,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 5,
-                      "bottomRow": 9,
+                      "topRow": 6,
+                      "bottomRow": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -963,7 +1172,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Team_Stats.data.winCount}}",
+                      "text": "{{Get_Season_Stats.data.gamesPlayed || 0}}",
                       "key": "lvqf2ir3b9",
                       "isDeprecated": false,
                       "rightColumn": 34,
@@ -1015,10 +1224,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 26,
+              "originalTopRow": 25,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 40,
+              "originalBottomRow": 39,
               "minDynamicHeight": 14
             },
             {
@@ -1110,7 +1319,7 @@
                       "originalTopRow": 0,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 5,
+                      "originalBottomRow": 9,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
@@ -1164,10 +1373,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 6,
+                      "originalTopRow": 10,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 10,
+                      "originalBottomRow": 14,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     }
@@ -1333,7 +1542,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Team_Stats.data.gamesPlayed}}",
+                      "text": "{{Get_Team_Stats.data.gamesPlayed || 0}}",
                       "key": "lvqf2ir3b9",
                       "isDeprecated": false,
                       "rightColumn": 34,
@@ -1381,376 +1590,6 @@
               "rightColumn": 27,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "qvabr3743h",
-              "isVisible": true,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "originalTopRow": 26,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "originalBottomRow": 40,
-              "minDynamicHeight": 14
-            },
-            {
-              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "gamesCountPlayerCopy2Copy",
-              "borderColor": "#E0DEDE",
-              "isCanvas": true,
-              "displayName": "Stats Box",
-              "iconSVG": "/static/media/icon.382a7c7bc55323fbbd8edd79208c5324.svg",
-              "topRow": 26,
-              "bottomRow": 40,
-              "parentRowSpace": 10,
-              "type": "STATBOX_WIDGET",
-              "hideCard": false,
-              "shouldScrollContents": true,
-              "animateLoading": true,
-              "parentColumnSpace": 30.0625,
-              "leftColumn": 34,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
-                {
-                  "key": "boxShadow"
-                }
-              ],
-              "children": [
-                {
-                  "widgetName": "Canvas1CopyCopy2Copy",
-                  "displayName": "Canvas",
-                  "topRow": 0,
-                  "bottomRow": 140,
-                  "parentRowSpace": 1,
-                  "type": "CANVAS_WIDGET",
-                  "canExtend": false,
-                  "hideCard": true,
-                  "minHeight": 140,
-                  "parentColumnSpace": 1,
-                  "leftColumn": 0,
-                  "dynamicBindingPathList": [],
-                  "children": [
-                    {
-                      "widgetName": "Games_PlayedCopy1Copy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Games Played",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "cddxov1h8t",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#999999",
-                      "version": 1,
-                      "parentId": "k67pgd5osj",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 0,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 5,
-                      "fontSize": "1rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text2CopyCopy2Copy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 5,
-                      "bottomRow": 9,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Team_Stats.data.gamesPlayed}}",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 34,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "6yay7plxro",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "k67pgd5osj",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 5,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 9,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    }
-                  ],
-                  "key": "txfa6shi5s",
-                  "isDeprecated": false,
-                  "rightColumn": 300.625,
-                  "detachFromLayout": true,
-                  "widgetId": "k67pgd5osj",
-                  "containerStyle": "none",
-                  "minWidth": 450,
-                  "isVisible": true,
-                  "version": 1,
-                  "parentId": "2hkvgqe3zn",
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
-                  "responsiveBehavior": "fill",
-                  "flexLayers": []
-                }
-              ],
-              "borderWidth": "1",
-              "positioning": "fixed",
-              "key": "1vhi1rq4nk",
-              "backgroundColor": "white",
-              "isDeprecated": false,
-              "rightColumn": 39,
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "2hkvgqe3zn",
-              "isVisible": true,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "originalTopRow": 26,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "originalBottomRow": 40,
-              "minDynamicHeight": 14
-            },
-            {
-              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "gamesCountPlayerCopy2CopyCopy",
-              "borderColor": "#E0DEDE",
-              "isCanvas": true,
-              "displayName": "Stats Box",
-              "iconSVG": "/static/media/icon.382a7c7bc55323fbbd8edd79208c5324.svg",
-              "topRow": 26,
-              "bottomRow": 40,
-              "parentRowSpace": 10,
-              "type": "STATBOX_WIDGET",
-              "hideCard": false,
-              "shouldScrollContents": true,
-              "animateLoading": true,
-              "parentColumnSpace": 30.0625,
-              "leftColumn": 46,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
-                {
-                  "key": "boxShadow"
-                }
-              ],
-              "children": [
-                {
-                  "widgetName": "Canvas1CopyCopy2CopyCopy",
-                  "displayName": "Canvas",
-                  "topRow": 0,
-                  "bottomRow": 140,
-                  "parentRowSpace": 1,
-                  "type": "CANVAS_WIDGET",
-                  "canExtend": false,
-                  "hideCard": true,
-                  "minHeight": 140,
-                  "parentColumnSpace": 1,
-                  "leftColumn": 0,
-                  "dynamicBindingPathList": [],
-                  "children": [
-                    {
-                      "widgetName": "Games_PlayedCopy1CopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Games Played",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "hsl333cdcm",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#999999",
-                      "version": 1,
-                      "parentId": "9rmyhwlt8x",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 0,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 5,
-                      "fontSize": "1rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text2CopyCopy2CopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 5,
-                      "bottomRow": 9,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Team_Stats.data.gamesPlayed}}",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 34,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "hhvtsm8j53",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "9rmyhwlt8x",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 5,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 9,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    }
-                  ],
-                  "key": "txfa6shi5s",
-                  "isDeprecated": false,
-                  "rightColumn": 300.625,
-                  "detachFromLayout": true,
-                  "widgetId": "9rmyhwlt8x",
-                  "containerStyle": "none",
-                  "minWidth": 450,
-                  "isVisible": true,
-                  "version": 1,
-                  "parentId": "xlrtmbj83n",
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
-                  "responsiveBehavior": "fill",
-                  "flexLayers": []
-                }
-              ],
-              "borderWidth": "1",
-              "positioning": "fixed",
-              "key": "1vhi1rq4nk",
-              "backgroundColor": "white",
-              "isDeprecated": false,
-              "rightColumn": 51,
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "xlrtmbj83n",
               "isVisible": true,
               "parentId": "0",
               "renderMode": "CANVAS",
@@ -1902,7 +1741,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 9,
+                      "originalTopRow": 6,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 14,
@@ -1956,10 +1795,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 15,
+                      "originalTopRow": 26,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 20,
+                      "originalBottomRow": 36,
                       "fontSize": "0.875rem",
                       "minDynamicHeight": 4
                     },
@@ -2010,10 +1849,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 9,
+                      "originalTopRow": 15,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 14,
+                      "originalBottomRow": 25,
                       "fontSize": "0.875rem",
                       "minDynamicHeight": 4
                     },
@@ -2067,10 +1906,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 5,
+                      "originalTopRow": 6,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 9,
+                      "originalBottomRow": 10,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     },
@@ -2124,10 +1963,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 15,
+                      "originalTopRow": 16,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 19,
+                      "originalBottomRow": 20,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     },
@@ -2181,10 +2020,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 10,
+                      "originalTopRow": 11,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 14,
+                      "originalBottomRow": 15,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     }
@@ -2687,930 +2526,6 @@
             },
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "gamesCountPlayerCopy1CopyCopy",
-              "borderColor": "#E0DEDE",
-              "isCanvas": true,
-              "displayName": "Stats Box",
-              "iconSVG": "/static/media/icon.382a7c7bc55323fbbd8edd79208c5324.svg",
-              "topRow": 40,
-              "bottomRow": 61,
-              "parentRowSpace": 10,
-              "type": "STATBOX_WIDGET",
-              "hideCard": false,
-              "shouldScrollContents": true,
-              "animateLoading": true,
-              "parentColumnSpace": 30.0625,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 34,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
-                {
-                  "key": "boxShadow"
-                }
-              ],
-              "children": [
-                {
-                  "widgetName": "Canvas1CopyCopy1CopyCopy",
-                  "displayName": "Canvas",
-                  "topRow": 0,
-                  "bottomRow": 210,
-                  "parentRowSpace": 1,
-                  "type": "CANVAS_WIDGET",
-                  "canExtend": false,
-                  "hideCard": true,
-                  "minHeight": 140,
-                  "parentColumnSpace": 1,
-                  "leftColumn": 0,
-                  "dynamicBindingPathList": [],
-                  "children": [
-                    {
-                      "widgetName": "ThrowsPlayerCopy1Copy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Throws",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 57,
-                      "textAlign": "CENTER",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "8hisjfhgiz",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#999999",
-                      "version": 1,
-                      "parentId": "l3zwq73n92",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 0,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 5,
-                      "fontSize": "1rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "ThrowsPlayerCopyCopy2Copy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 5,
-                      "bottomRow": 9,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Rock",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 28,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "fjaze5g5sj",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#999999",
-                      "version": 1,
-                      "parentId": "l3zwq73n92",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 9,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 14,
-                      "fontSize": "0.875rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "ThrowsPlayerCopyCopy1CopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 15,
-                      "bottomRow": 19,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Scissors",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 38,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "kw5u2ev1xj",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#999999",
-                      "version": 1,
-                      "parentId": "l3zwq73n92",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 15,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 20,
-                      "fontSize": "0.875rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "ThrowsPlayerCopyCopyCopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 10,
-                      "bottomRow": 14,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Paper",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 28,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "phsrux7pue",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#999999",
-                      "version": 1,
-                      "parentId": "l3zwq73n92",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 9,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 14,
-                      "fontSize": "0.875rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text2CopyCopy1Copy2Copy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 5,
-                      "bottomRow": 9,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 43,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Team_Stats.data.throwCounts.Rock || 0}}",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 62,
-                      "textAlign": "RIGHT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "96ny6lo4m9",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "l3zwq73n92",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 5,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 9,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text2CopyCopy1Copy1CopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 15,
-                      "bottomRow": 19,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 44,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Team_Stats.data.throwCounts.Scissors || 0}}",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 62,
-                      "textAlign": "RIGHT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "otqt34yyvd",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "l3zwq73n92",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 15,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 19,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text2CopyCopy1CopyCopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 10,
-                      "bottomRow": 14,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 43,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Team_Stats.data.throwCounts.Paper || 0}}",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 62,
-                      "textAlign": "RIGHT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "w19n1nlt45",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "l3zwq73n92",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 10,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 14,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    }
-                  ],
-                  "key": "txfa6shi5s",
-                  "isDeprecated": false,
-                  "rightColumn": 300.625,
-                  "detachFromLayout": true,
-                  "widgetId": "l3zwq73n92",
-                  "containerStyle": "none",
-                  "minWidth": 450,
-                  "isVisible": true,
-                  "version": 1,
-                  "parentId": "ifi6mi6g1w",
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
-                  "responsiveBehavior": "fill",
-                  "flexLayers": []
-                }
-              ],
-              "borderWidth": "1",
-              "positioning": "fixed",
-              "key": "1vhi1rq4nk",
-              "backgroundColor": "white",
-              "isDeprecated": false,
-              "rightColumn": 39,
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "ifi6mi6g1w",
-              "isVisible": true,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "originalTopRow": 40,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "originalBottomRow": 61,
-              "minDynamicHeight": 10
-            },
-            {
-              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "gamesCountPlayerCopy1CopyCopyCopy",
-              "borderColor": "#E0DEDE",
-              "isCanvas": true,
-              "displayName": "Stats Box",
-              "iconSVG": "/static/media/icon.382a7c7bc55323fbbd8edd79208c5324.svg",
-              "topRow": 40,
-              "bottomRow": 61,
-              "parentRowSpace": 10,
-              "type": "STATBOX_WIDGET",
-              "hideCard": false,
-              "shouldScrollContents": true,
-              "animateLoading": true,
-              "parentColumnSpace": 30.0625,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 46,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
-                {
-                  "key": "boxShadow"
-                }
-              ],
-              "children": [
-                {
-                  "widgetName": "Canvas1CopyCopy1CopyCopyCopy",
-                  "displayName": "Canvas",
-                  "topRow": 0,
-                  "bottomRow": 210,
-                  "parentRowSpace": 1,
-                  "type": "CANVAS_WIDGET",
-                  "canExtend": false,
-                  "hideCard": true,
-                  "minHeight": 140,
-                  "parentColumnSpace": 1,
-                  "leftColumn": 0,
-                  "dynamicBindingPathList": [],
-                  "children": [
-                    {
-                      "widgetName": "ThrowsPlayerCopy1CopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Throws",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 57,
-                      "textAlign": "CENTER",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "q30t4p3p19",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#999999",
-                      "version": 1,
-                      "parentId": "4k026ajiqo",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 0,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 5,
-                      "fontSize": "1rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "ThrowsPlayerCopyCopy2CopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 5,
-                      "bottomRow": 9,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Rock",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 28,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "rv50dn1nc4",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#999999",
-                      "version": 1,
-                      "parentId": "4k026ajiqo",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 9,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 14,
-                      "fontSize": "0.875rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "ThrowsPlayerCopyCopy1CopyCopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 15,
-                      "bottomRow": 19,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Scissors",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 38,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "2bzzu9r03k",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#999999",
-                      "version": 1,
-                      "parentId": "4k026ajiqo",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 15,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 20,
-                      "fontSize": "0.875rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "ThrowsPlayerCopyCopyCopyCopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 10,
-                      "bottomRow": 14,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Paper",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 28,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "o5sxx2twzj",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#999999",
-                      "version": 1,
-                      "parentId": "4k026ajiqo",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 9,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 14,
-                      "fontSize": "0.875rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text2CopyCopy1Copy2CopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 5,
-                      "bottomRow": 9,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 43,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Team_Stats.data.throwCounts.Rock || 0}}",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 62,
-                      "textAlign": "RIGHT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "mscjnpmfk9",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "4k026ajiqo",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 5,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 9,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text2CopyCopy1Copy1CopyCopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 15,
-                      "bottomRow": 19,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 44,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Team_Stats.data.throwCounts.Scissors || 0}}",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 62,
-                      "textAlign": "RIGHT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "3dimkyrmqu",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "4k026ajiqo",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 15,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 19,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text2CopyCopy1CopyCopyCopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 10,
-                      "bottomRow": 14,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 43,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Team_Stats.data.throwCounts.Paper || 0}}",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 62,
-                      "textAlign": "RIGHT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "d6wr94do11",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "4k026ajiqo",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 10,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 14,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    }
-                  ],
-                  "key": "txfa6shi5s",
-                  "isDeprecated": false,
-                  "rightColumn": 300.625,
-                  "detachFromLayout": true,
-                  "widgetId": "4k026ajiqo",
-                  "containerStyle": "none",
-                  "minWidth": 450,
-                  "isVisible": true,
-                  "version": 1,
-                  "parentId": "xn0dt4q7eu",
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
-                  "responsiveBehavior": "fill",
-                  "flexLayers": []
-                }
-              ],
-              "borderWidth": "1",
-              "positioning": "fixed",
-              "key": "1vhi1rq4nk",
-              "backgroundColor": "white",
-              "isDeprecated": false,
-              "rightColumn": 51,
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "xn0dt4q7eu",
-              "isVisible": true,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "originalTopRow": 40,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "originalBottomRow": 61,
-              "minDynamicHeight": 10
-            },
-            {
-              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "gamesCountPlayerCopy",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
@@ -3707,7 +2622,7 @@
                       "originalTopRow": 0,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 5,
+                      "originalBottomRow": 9,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
@@ -3746,7 +2661,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Player_Stats.data.winPercent}}%",
+                      "text": "{{(Get_Player_Stats.data.winPercent || 0).toFixed(2)}}%",
                       "key": "lvqf2ir3b9",
                       "isDeprecated": false,
                       "rightColumn": 63,
@@ -3762,10 +2677,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 5,
+                      "originalTopRow": 10,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 9,
+                      "originalBottomRow": 18,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     }
@@ -3941,7 +2856,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Team_Stats.data.winPercent.toFixed(2)}}%",
+                      "text": "{{(Get_Team_Stats.data.winPercent || 0).toFixed(2)}}%",
                       "key": "lvqf2ir3b9",
                       "isDeprecated": false,
                       "rightColumn": 45,
@@ -3989,396 +2904,6 @@
               "rightColumn": 22,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "0alvmw1ayj",
-              "isVisible": true,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "originalTopRow": 40,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "originalBottomRow": 54,
-              "minDynamicHeight": 14
-            },
-            {
-              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "gamesCountPlayerCopyCopyCopy",
-              "borderColor": "#E0DEDE",
-              "isCanvas": true,
-              "dynamicPropertyPathList": [
-                {
-                  "key": "backgroundColor"
-                }
-              ],
-              "displayName": "Stats Box",
-              "iconSVG": "/static/media/icon.382a7c7bc55323fbbd8edd79208c5324.svg",
-              "topRow": 40,
-              "bottomRow": 54,
-              "parentRowSpace": 10,
-              "type": "STATBOX_WIDGET",
-              "hideCard": false,
-              "shouldScrollContents": true,
-              "animateLoading": true,
-              "parentColumnSpace": 30.0625,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 29,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
-                {
-                  "key": "boxShadow"
-                },
-                {
-                  "key": "backgroundColor"
-                }
-              ],
-              "children": [
-                {
-                  "widgetName": "Canvas1CopyCopyCopyCopy",
-                  "displayName": "Canvas",
-                  "topRow": 0,
-                  "bottomRow": 140,
-                  "parentRowSpace": 1,
-                  "type": "CANVAS_WIDGET",
-                  "canExtend": false,
-                  "hideCard": true,
-                  "minHeight": 140,
-                  "parentColumnSpace": 1,
-                  "leftColumn": 0,
-                  "dynamicBindingPathList": [],
-                  "children": [
-                    {
-                      "widgetName": "Games_PlayedCopyCopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Win Percent",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 57,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "sdj5uyunyr",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#999999",
-                      "version": 1,
-                      "parentId": "48p61m6dkv",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 0,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 5,
-                      "fontSize": "1rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text2CopyCopyCopyCopy",
-                      "dynamicPropertyPathList": [],
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 5,
-                      "bottomRow": 9,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Team_Stats.data.winPercent.toFixed(2)}}%",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 45,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "rfhx5wp0jq",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "48p61m6dkv",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 5,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 9,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    }
-                  ],
-                  "key": "txfa6shi5s",
-                  "isDeprecated": false,
-                  "rightColumn": 300.625,
-                  "detachFromLayout": true,
-                  "widgetId": "48p61m6dkv",
-                  "containerStyle": "none",
-                  "minWidth": 450,
-                  "isVisible": true,
-                  "version": 1,
-                  "parentId": "zp9wkkiwsl",
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
-                  "responsiveBehavior": "fill",
-                  "flexLayers": []
-                }
-              ],
-              "borderWidth": "1",
-              "positioning": "fixed",
-              "key": "1vhi1rq4nk",
-              "backgroundColor": "{{}}",
-              "isDeprecated": false,
-              "rightColumn": 34,
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "zp9wkkiwsl",
-              "isVisible": true,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "originalTopRow": 40,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "originalBottomRow": 54,
-              "minDynamicHeight": 14
-            },
-            {
-              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "gamesCountPlayerCopyCopyCopyCopy",
-              "borderColor": "#E0DEDE",
-              "isCanvas": true,
-              "dynamicPropertyPathList": [
-                {
-                  "key": "backgroundColor"
-                }
-              ],
-              "displayName": "Stats Box",
-              "iconSVG": "/static/media/icon.382a7c7bc55323fbbd8edd79208c5324.svg",
-              "topRow": 40,
-              "bottomRow": 54,
-              "parentRowSpace": 10,
-              "type": "STATBOX_WIDGET",
-              "hideCard": false,
-              "shouldScrollContents": true,
-              "animateLoading": true,
-              "parentColumnSpace": 30.0625,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 41,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
-                {
-                  "key": "boxShadow"
-                },
-                {
-                  "key": "backgroundColor"
-                }
-              ],
-              "children": [
-                {
-                  "widgetName": "Canvas1CopyCopyCopyCopyCopy",
-                  "displayName": "Canvas",
-                  "topRow": 0,
-                  "bottomRow": 140,
-                  "parentRowSpace": 1,
-                  "type": "CANVAS_WIDGET",
-                  "canExtend": false,
-                  "hideCard": true,
-                  "minHeight": 140,
-                  "parentColumnSpace": 1,
-                  "leftColumn": 0,
-                  "dynamicBindingPathList": [],
-                  "children": [
-                    {
-                      "widgetName": "Games_PlayedCopyCopyCopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Win Percent",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 57,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "pw2l1t7fla",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#999999",
-                      "version": 1,
-                      "parentId": "6gi2nuijpq",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 0,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 5,
-                      "fontSize": "1rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text2CopyCopyCopyCopyCopy",
-                      "dynamicPropertyPathList": [],
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 5,
-                      "bottomRow": 9,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Get_Team_Stats.data.winPercent.toFixed(2)}}%",
-                      "key": "lvqf2ir3b9",
-                      "isDeprecated": false,
-                      "rightColumn": 45,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "kcjzqeuold",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "6gi2nuijpq",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 5,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 9,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    }
-                  ],
-                  "key": "txfa6shi5s",
-                  "isDeprecated": false,
-                  "rightColumn": 300.625,
-                  "detachFromLayout": true,
-                  "widgetId": "6gi2nuijpq",
-                  "containerStyle": "none",
-                  "minWidth": 450,
-                  "isVisible": true,
-                  "version": 1,
-                  "parentId": "2utpianglp",
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
-                  "responsiveBehavior": "fill",
-                  "flexLayers": []
-                }
-              ],
-              "borderWidth": "1",
-              "positioning": "fixed",
-              "key": "1vhi1rq4nk",
-              "backgroundColor": "{{}}",
-              "isDeprecated": false,
-              "rightColumn": 46,
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "2utpianglp",
               "isVisible": true,
               "parentId": "0",
               "renderMode": "CANVAS",
@@ -4467,8 +2992,8 @@
               "searchTags": [
                 "line"
               ],
-              "topRow": 8,
-              "bottomRow": 72,
+              "topRow": 7,
+              "bottomRow": 71,
               "parentRowSpace": 10,
               "type": "DIVIDER_WIDGET",
               "capType": "nc",
@@ -4618,8 +3143,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 12,
-              "bottomRow": 17,
+              "topRow": 11,
+              "bottomRow": 16,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -4658,10 +3183,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 12,
+              "originalTopRow": 11,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 17,
+              "originalBottomRow": 16,
               "fontSize": "1.875rem",
               "minDynamicHeight": 4
             },
@@ -4675,8 +3200,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 12,
-              "bottomRow": 17,
+              "topRow": 11,
+              "bottomRow": 16,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -4715,12 +3240,209 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 12,
+              "originalTopRow": 11,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 17,
+              "originalBottomRow": 16,
               "fontSize": "1.875rem",
               "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Container1",
+              "borderColor": "#E0DEDE",
+              "isCanvas": true,
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+              "searchTags": [
+                "div",
+                "parent",
+                "group"
+              ],
+              "topRow": 25,
+              "bottomRow": 45,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "animateLoading": true,
+              "parentColumnSpace": 29.953125,
+              "leftColumn": 46,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                }
+              ],
+              "children": [
+                {
+                  "widgetName": "Canvas2",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 200,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 100,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "widgetName": "Text5",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 5,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 29.953125,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Teams Participated",
+                      "key": "tmwtgvlhig",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "zkutqzulmf",
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "mwppq4n182",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "originalTopRow": 0,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 5,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "Text4",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 5,
+                      "bottomRow": 18,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 29.953125,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "{{Get_Season_Stats.data.teamsParticipated}}",
+                      "key": "tmwtgvlhig",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "y4ty3dcx7d",
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "mwppq4n182",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "originalTopRow": 5,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 9,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    }
+                  ],
+                  "key": "0ohoheh9gf",
+                  "isDeprecated": false,
+                  "rightColumn": 718.875,
+                  "detachFromLayout": true,
+                  "widgetId": "mwppq4n182",
+                  "containerStyle": "none",
+                  "minWidth": 450,
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "v1tilwfhpv",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "responsiveBehavior": "fill",
+                  "flexLayers": []
+                }
+              ],
+              "borderWidth": "1",
+              "key": "3xww65lk34",
+              "backgroundColor": "#FFFFFF",
+              "isDeprecated": false,
+              "rightColumn": 51,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "v1tilwfhpv",
+              "containerStyle": "card",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 25,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 36,
+              "minDynamicHeight": 10
             }
           ]
         },
@@ -4735,8 +3457,24 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Statistics_Get_Seasons",
+              "name": "Get_Seasons",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Statistics_Get_Teams",
               "name": "Get_Teams",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Statistics_Get_Tournaments",
+              "name": "Get_Tournaments",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -4755,12 +3493,32 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Statistics_Get_Season_Stats",
+              "name": "Get_Season_Stats",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Season_Select.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Statistics_Get_Team_Stats",
               "name": "Get_Team_Stats",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
                 "Team_Select.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Statistics_Get_Tournament_Stats",
+              "name": "Get_Tournament_Stats",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Tournament_Select.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }

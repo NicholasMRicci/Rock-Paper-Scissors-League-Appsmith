@@ -1,16 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
-      "isDefault": true
-    },
-    {
       "id": "Spectator Favorites",
       "isDefault": false
     },
     {
-      "id": "Coach View Players",
-      "isDefault": false
+      "id": "Coach Players",
+      "isDefault": true
     },
     {
       "id": "Match History",
